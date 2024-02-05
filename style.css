@@ -1,0 +1,38 @@
+.align-right{
+    text-align: right;
+    float: right;
+    margin-left: auto;
+    margin-right: 0;
+    justify-content: flex-end;
+}
+
+.flex{
+    display: flex!important;
+}
+
+.login-button{
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+}
+
+button{
+    border-radius: 0!important;
+}
+
+body{
+
+    font-family: 'Nunito', sans-serif;
+    
+    font-weight: bold;
+}
+
+.carousel-image{
+    display: block;
+    width: 100%;
+    height: 75vh; /* or whatever height you desire */
+    object-fit: cover;
+    object-position: center;
+  }
